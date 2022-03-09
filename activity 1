@@ -1,0 +1,61 @@
+#-------------------------------------------------------------[	ACTIVITY 1	]--------------------------------------------------------------------------------#
+
+ACTIVITY: Find Cmdlets
+1.	Ensure that you have the latest copy of help by updating your help system.
+	
+	> Update-Help
+	
+2.	Which cmdlets deal with the viewing/manipulating of processes?
+
+	> Get-Process
+	> Stop-Process
+	> Start-Process
+	> Wait-Process
+	> Debug-Process
+
+3.	Display a list of services installed on your local computer.
+
+	> Get-Service
+
+
+-	What cmdlets are used to write or output objects or text to the screen?
+
+	> Write-Output
+
+
+
+
+-	What cmdlets can be used to create, modify, list, and delete variables?
+
+	> Get-Variable		:		List Variables
+	> Remove-Variable	:		Deletes a Variable
+	> Clear-Variable	:		Clears value of variable (sets to $null) without deleting the variable itself	
+
+
+-	What cmdlet can be used, other than Get-Help, to find and list other cmdlets?
+-	Find the cmdlet that is used to prompt the user for input.
+
+
+	> Read-Host		:		prompts for user input
+	
+	> Get-Command
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+====================================================================================================================================================================
