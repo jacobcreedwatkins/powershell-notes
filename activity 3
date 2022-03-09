@@ -30,8 +30,11 @@ Create a variable called "quo" that holds the quotient of var1 and var2.
 Replace the variables in text with their values in the following format:
 
 
-
 "var1" + "var2" = "sum"
+
+
+Write-Output "$var1" + "$var2" = "$sum"
+
 
 
 
@@ -43,7 +46,7 @@ Replace the variables in text with their values in the following format:
 
 "var1" - "var2" = "sub"
 
-
+Write-Output "$var1" 1 "$var2" = "$sub"
 
 
 
@@ -54,7 +57,7 @@ Replace the variables in text with their values in the following format:
 "var1" * "var2" = "prod"
 
 
-
+Write-Output "$var1" * "$var2" = "$prod"
 
 
 Replace the variables in text with their values in the following format:
@@ -62,3 +65,9 @@ Replace the variables in text with their values in the following format:
 
 
 "var1" / "var2" = "quo"
+Write-Output "$var1" / "$var2" = "$quo"
+
+
+
+
+=============================================================================================================================================================
