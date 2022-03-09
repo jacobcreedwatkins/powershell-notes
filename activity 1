@@ -16,13 +16,15 @@ ACTIVITY: Find Cmdlets
 3.	Display a list of services installed on your local computer.
 
 	> Get-Service
+	> Get-WmiObject Win32_Service
+	> Get-CimInstance win32_Service
 
 
 -	What cmdlets are used to write or output objects or text to the screen?
 
 	> Write-Output
 
-
+	> get-command -noun ciminstance
 
 
 -	What cmdlets can be used to create, modify, list, and delete variables?
@@ -30,6 +32,8 @@ ACTIVITY: Find Cmdlets
 	> Get-Variable		:		List Variables
 	> Remove-Variable	:		Deletes a Variable
 	> Clear-Variable	:		Clears value of variable (sets to $null) without deleting the variable itself	
+	> New-Variable
+	> Set-Variable
 
 
 -	What cmdlet can be used, other than Get-Help, to find and list other cmdlets?
@@ -38,7 +42,7 @@ ACTIVITY: Find Cmdlets
 
 	> Read-Host		:		prompts for user input
 	
-	> Get-Command
+	> Get-Command -noun <noun> -verb <verb>
 
 
 
