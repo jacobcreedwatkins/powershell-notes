@@ -13,7 +13,7 @@ Get-Process
 
 Display a list of all running processes that start with the letter "s".
 
-?????????????????
+Get-Process -name s*
 
 
 1.  Find the cmdlet and its purpose for the following aliases:
