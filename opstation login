@@ -1,5 +1,4 @@
 #----------------------------------------------------------------------[	OPENVPN SSH LOGIN	]--------------------------------------------------------------#
 
 
->	ssh -X student@10.50.27.195
->	password
+xfreerdp /u:student /v:10.50.33.133/dynamic-resolution +glyph-cache+clipboard
