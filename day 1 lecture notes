@@ -1,9 +1,66 @@
 #-----------------------------------------------------------------------[	POWERSHELL	]-------------------------------------------------------------------#
 
+~~~~~~~~~~
+COMMENTING
+~~~~~~~~~~
 
-- powershell will natively accept C# code snippets
+#   :   single line comment
+
+<#
+                          multi line comment 
+    #>                
+
+===============================================================================================================================================================
+
+~~~~~~~~~~~~
+EASE OF USE
+~~~~~~~~~~~
+powershell_ise								:		open up powershell with the integrated scripting environment
+Get-Command									:		searches for a command 
+Get-Command -verb <verb> -noun <noun>
+Get-Help <> -online 
+Get-Command *
+Get-ExecutionPolicy							:		diplsays execution policy
+Set-ExecutionPolicy	-scope <scope>			:		set the execution policy, within a given scope 
+Get-Alias									:		prints set aliases 
+New-Alias -name <alias> -value <cmdlet>		:		creates and sets an alias
+Get-Alias -Definition <cmdlet>				:		prints the alias corresponding to a given powershell cmdlet
+Set-Alias edit notepad.exe					:		creates new alisas 'edit' which opens and runs notepad.exe
+<variable>.GetType().name					:		prints the typ of an onject
 
 
 
 
+
+===============================================================================================================================================================
+
+~~~~~~~~~~~~~~~~~~
+POWERSHELL CMDLETs
+~~~~~~~~~~~~~~~~~~
+
+verb-noun -parameters syntax
+
+verb		:	something you want to 'do'
+noun		:	something you want to perform an action on
+parameters	:	additional options that are selected for the cmdlet being used
+
+
+
+
+
+
+
+${$}		:		last command used
+$?			:		result of last command 
+$_			:		current object pipeline
+$PSitem		:		
+$input		:		enumerates all arguments asked to a funciton
+_$args
+
+
+
+environmental variables are variables maintained by the operating system itself and can be used by several different programs
+
+
+$variable = <variable>
 
