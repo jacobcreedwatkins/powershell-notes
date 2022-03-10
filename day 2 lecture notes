@@ -68,6 +68,16 @@ PIPELINES
 
 	Where-Object								Filters results according to a criterion
 	
+	--------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	
+	~~~~~~~~~
+	WRITE HOST/WRITE OUTPUT
+	~~~~~~~~~~~~~~~~~~~~~~~
+	
+	
+	* Write Host will write to the console host window itself
+	* Write-Output will write to the pipeline, so the next command can accept it as its input
 	
 	
 	
