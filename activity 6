@@ -1,0 +1,30 @@
+Display the start time of the earliest and latest running processes
+
+>	Get-Process | select starttime,name
+
+
+Identify a cmdlet that returns the current date and time then using this cmdlet and Select-object, display only the current day of the week
+
+
+>	Get-Date | Select-Object DayOfWeek
+
+
+Identify a cmdlet that displays a list of installed hotfixes.
+
+
+
+>	Get-Hotfix
+
+
+
+Extend the expression to sort the list by install date, and display only the install date and hotfix ID.
+
+
+>	Get-Hotfix | Sort-Object -Property InstalledOn | Select-Object -Property InstalledOn,HotFixID
+
+
+Extend the expression further, but this time sort by description, include description, hotfix ID, and install Date.
+
+
+
+>	Get-Hotfix | Sort-Object -property Description | select-object -Property Description,HotFixID,InstalledOn
