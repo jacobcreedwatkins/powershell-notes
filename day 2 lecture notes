@@ -1,6 +1,85 @@
 #-------------------------------------------------------------------[ DAY 2 LECTURE NOTES ]---------------------------------------------------------------------#
 
 
+~~~~~~~~~~~
+PIPELINES
+~~~~~~~~~~~
+
+
+-	powershell is an OBJECT ORIENTED interpreted scripting lanuage based off C#
+
+
+
+
+	~~~~~~~~~~~~~~~~~~~~~
+	COMMON PIPELINE SYNTAX
+	~~~~~~~~~~~~~~~~~~~~~
+	
+	Compare-Object								Compares two objects and marks their differences
+
+
+	ConvertTo-Html								Converts object into HTML
+
+
+	Export-Csv									Saves object in a csv file
+
+
+	ForEach-Object								Returns each pipeline object one after the other
+
+
+	Format-List									Outputs results as a list
+
+
+	Format-Table								Outputs result as a table
+
+
+	Format-Wide									Outputs results in several columns
+
+
+	Get-Unique									Removes duplicates from a list of values
+
+
+	Group-Object								Groups results according to a criterion
+
+
+	Measure-Object								Calculates the statistical frequency distribution of object values or texts
+
+
+	Out-File									Writes results to a file
+
+
+	Out-Host									Outputs results in the console
+
+
+	Out-Null									Deletes results
+	
+
+	Out-String									Converts results to plain text
+
+
+	Select-String								Filters properties of an object and limits number of results as requested
+
+
+	Sort-Object									Sorts results
+
+
+	Tee-Object									Copies the pipeline’s contents and saves it to a file or a variable
+
+
+	Where-Object								Filters results according to a criterion
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
 
 
 
