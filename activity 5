@@ -9,6 +9,19 @@
 
 
 
+$employee1 = [ordered]@{}
+
+
+$employee1.First = "Mary"
+$employee1["Last"] = "hopper
+employee1.ID = "001"
+employee1["Job"] = "Software Developer
+
+
+
+
+$mployee1.Username = "mhoppper001"
+employee2.Username = "jwilliams002"
 
 
 
