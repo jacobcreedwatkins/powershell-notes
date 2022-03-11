@@ -143,17 +143,12 @@ function q10 ($filepath,$lasthash) {
 
 
 
-$changed = ($filepath).LastWriteTime
 
 
+##OPTION 2
 
 
-if($lasthash -ne $changed){
-return $true
-}
-else{
-return $false
-}
+return (get-filehash $filepath).hash -ne $lasthash
 
 
 
