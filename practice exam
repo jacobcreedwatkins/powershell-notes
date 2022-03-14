@@ -1,10 +1,13 @@
-<# 1 #>
-function q1($var1,$var2,$var3,$var4) {
+
+Multiply several different variables and return the given product.
+
+
+
+function mult($var1,$var2,$var3,$var4) {
 $product = ($var1 * $var2 * $var3 * $var4)
 return $product
-    <# Return the product of the arguments #>
 }
-function q2($arr,$rows,$cols,$key) {
+function mult($arr,$rows,$cols,$key) {
 
 
     
