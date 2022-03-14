@@ -7,76 +7,6 @@ function mult($var1,$var2,$var3,$var4) {
 $product = ($var1 * $var2 * $var3 * $var4)
 return $product
 }
-function mult($arr,$rows,$cols,$key) {
-
-
-    
-    
-
-
-
-
-
-    <# Search the 2 dimensional array for the first occurance of key at column index 0
-       and return the value at column index 9 of the same row.
-       Return -1 if the key is not found.
-    #>
-}
-function q3 {
-
-param (
-[Parameter(Mandatory=$true)]
-$userInput="enter a positive integer: "
-)
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-    <# In a loop, prompt the user to enter positive integers one at time.
-       Stop when the user enters a -1. Return the maximum positive
-       value that was entered."
-	#>
-}
-
-================================================================================================================================================================
-
-function q4($filename,$whichline) {
-
-
-Get-Content $filename
-
-}
-
-
-
-
-
-    <# Return the line of text from the file given by the `$filename
-	   argument that corresponds to the line number given by `$whichline.
-	   The first line in the file corresponds to line number 0."
-	#>
-}
-
-
-
-
 
 ===================================================================================================================================================
 
@@ -178,5 +108,22 @@ function hash ($filepath,$lasthash) {
 
 return (get-filehash $filepath).hash -ne $lasthash
 }
+
+
+============================================================
+
+
+
+
+
+for (x in y) {perform something}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+foreach ($item in y) {execute this in $item (or $_) }
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$array = 1..10
+$array | foreach-object { write-host "this is $_"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+while (1 -eq 1) {start process notepad}
 
 
